@@ -5,10 +5,10 @@ USE_POWERLINE="true"
 #    is not a diamond
 HAS_WIDECHARS="false"
 # Source manjaro-zsh-configuration
-if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
-  source /usr/share/zsh/manjaro-zsh-config
+if [[ -e $HOME/manjaro-zsh-config-ubuntu/manjaro-zsh-config ]]; then
+  source $HOME/manjaro-zsh-config-ubuntu/manjaro-zsh-config
 fi
 # Use manjaro zsh prompt
-if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
-  source /usr/share/zsh/manjaro-zsh-prompt
+if [[ -e $HOME/manjaro-zsh-config-ubuntu/manjaro-zsh-prompt ]]; then
+  source $HOME/manjaro-zsh-config-ubuntu/manjaro-zsh-prompt
 fi
